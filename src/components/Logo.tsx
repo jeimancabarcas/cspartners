@@ -6,7 +6,9 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ className = '', variant = 'dark' }) => {
-    const logoSrc = variant === 'dark' ? '/logo.svg' : '/logo-light.svg';
+    // Ensure the logo path is relative to the deployed base URL
+    const logoFile = variant === 'dark' ? 'logo.svg' : 'logo-light.svg';
+    const logoSrc = `${import.meta.env.BASE_URL}${logoFile}`;
 
     return (
         <img
