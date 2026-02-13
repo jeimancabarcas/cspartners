@@ -1,0 +1,12 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Iconic Symbol: Stylized 'C' + Shield/Roof -->
+  <path d="M20 40C20 28.9543 28.9543 20 40 20H45L55 10L65 20H70C81.0457 20 90 28.9543 90 40V50C90 61.0457 81.0457 70 70 70H40C28.9543 70 20 61.0457 20 50V40Z" fill="#0F172A"/>
+  
+  <!-- Inner Growth Element (Arrow shape in Gold) -->
+  <path d="M45 52L55 42L65 52" stroke="#CA8A04" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M55 42V58" stroke="#CA8A04" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Typography -->
+  <text x="110" y="45" fill="#0F172A" style="font-family: 'Inter', sans-serif; font-weight: bold; font-size: 28px; letter-spacing: -0.02em;">C&amp;S</text>
+  <text x="110" y="68" fill="#CA8A04" style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase;">Partners</text>
+</svg>
